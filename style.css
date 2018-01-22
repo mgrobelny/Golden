@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+@font-face {
+ font-family: "ThirstyScript";
+ src: url("ThirstyScript.otf") format("woff2"),
+      url("ThirstyScript.otf") format("woff");
+}
+
+* {	
+	-webkit-box-sizing: border-box;	
+	        box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background-color: white;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+h1 {
+	font-size: 75px;
+	font-weight: bold;
+	color: white;
+}
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	line-height: 10px;
+}
+
+p {
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+	color: #777777;
+}
+p.proin {
+	font-size: 16px;
+	font-style: italic;
+}
+p.italic {
+	font-size: 14px;
+	font-style: italic;
+	line-height: 5px;
+}
+a.navbar-brand {
+	font-family: 'ThirstyScript', sans-serif;
+	font-size: 26px;
+}
+
+.welcome {
+	margin-top: 25vh;
+}
+.welcome h1 {
+	margin-bottom: 50px;
+}
+.home {
+	height: auto;
+	background-color: gray;
+	padding: 20px 0 120px 0;
+	background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)) ), url(http://unlockingthebible.org/wp-content/uploads/2015/08/bow-tie-sunglasses-apple-iphone.jpg);
+	background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://unlockingthebible.org/wp-content/uploads/2015/08/bow-tie-sunglasses-apple-iphone.jpg);
+	background-image: -o-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://unlockingthebible.org/wp-content/uploads/2015/08/bow-tie-sunglasses-apple-iphone.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://unlockingthebible.org/wp-content/uploads/2015/08/bow-tie-sunglasses-apple-iphone.jpg);
+	background-repeat: no-repeat;
+	background-position: 10% 15%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.menu {
+	padding: 20px 150px 0 150px;
+}
+.menu li {
+	font-size: 14px;
+}
+.droid {
+	font-style: italic;
+	font-family: 'Noto Serif', serif;
+	font-size: 40px;
+}
+.butt {
+	padding: 25px 60px;
+	background-color: #fed136;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.butt:hover {
+	background-color: black;
+	-webkit-transition: all 0.5s; /* Safari */
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.container {
+	margin: 0 auto;
+	width: 60%;
+}
+.row {
+	height: auto;
+	margin-top: 50px;
+}
+.row::before
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.services, .about, .companies {
+	margin: 20px 0 100px 0;
+}
+button.icon {
+	font-size: 40px;
+	padding: 5px 11px;
+	color: #fed136;
+	background-color: transparent;
+	border: solid 3px #fed136;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+button.lock {
+	padding: 5px 22px;
+}
+.portfolio, .team {
+	background-color: #f7f7f7;
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+.box {
+	height: 280px;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 0;
+}
+.ivory {
+	background-image: url(http://freebiesxpress.com/wp-content/uploads/2014/01/Ebony-Ivory-Branding-Mockup.jpg);
+}
+.notes {
+	background-image: url(https://lo2ta.com/lo2ta_new/design/LO2TA/img/2.png);
+}
+.table {
+	background-image: url(http://ibrandstudio.com/wp-content/uploads/2015/11/poster-mockups-44.jpg);
+}
+.vinyl {
+	background-image: url(http://www.stronybarcin.pl/wp-content/uploads/2014/03/dt-050-641x481.jpg);
+}
+.webpage {
+	background-image: url(http://www.taxijura.pl/img/portfolio/treehouse-preview.png);
+}
+.burned {
+	background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/07/burned-wooden-logo-mockup.jpg);
+}
+.white {
+	background-color: white;
+	padding: 10px 0;
+}
+
+/* About */
+.about img, button.oval {
+	height: 185px;
+	width: 185px;
+	border-radius: 50%;
+	border: 6px #f1f1f1 solid;
+}
+div.col-md-5 {
+	text-align: right;
+}
+div.col-md-5.left {
+	text-align: left;
+	padding-left: 100px;
+}
+button.oval {
+	background-color: #fed136;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.abc {
+	position: relative;
+}
+hr.vertical
+{
+   width: 2px;
+   height: 1100px;
+   background-color: #f1f1f1;
+   position: absolute;
+   left: 132%;
+   -webkit-transform: translate(-50%, 0);
+       -ms-transform: translate(-50%, 0);
+           transform: translate(-50%, 0);
+}
+
+/* Team */
+
+.team img {
+	height: 230px;
+	width: 230px;
+	border-radius: 200px;
+	border: 6px solid white;
+}
+.smallicon {
+	color: black;
+	font-size: 22px;
+	border: 3px black solid;
+	background-color: transparent;
+	margin: 5px;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+.navy:hover, .blue:hover, .red:hover, .lightred:hover {
+	color: white;
+}
+.navy:hover {
+	background-color: #00aced;
+	border: 3px #00aced solid;
+}
+.blue:hover {
+	background-color: #3b5998;
+	border: 3px #3b5998 solid;
+}
+.red:hover {
+	background-color: #cb2028;
+	border: 3px #cb2028 solid;
+}
+.lightred:hover {
+	background-color: #da2713;
+	border: 3px #da2713 solid;
+}
+
+/* Companies */
+
+.companies img {
+	width: 80%;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) alpha(opacity=50); /* For IE8 and earlier */
+    opacity: 0.5;
+}
+.companies img:hover {
+	opacity: 1.0;
+	-webkit-filter: grayscale(1%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(1%) alpha(opacity=1); /* For IE8 and earlier */
+    cursor: pointer;
+}
+.companies {
+	margin-bottom: 50px;
+}
+
+/* Contact */
+
+.contact {
+	background-color: black;
+	background-image: url(http://webcaremedia.in/templates/110/images/footer-img.jpg);
+	background-size: cover;
+	padding-bottom: 50px;
+}
+.contact h2 {
+	color: white;
+}
+.formmargin {
+	margin-bottom: 30px;
+}
+.input-md {
+	height: 50px;
+}
+textarea {
+	height: 210px;
+	width: 100%;
+	display: inline-block;
+	padding: 15px;
+}
+.contact button {
+	margin-top: -20px;
+}
+
+/* Footer */
+footer p {
+	font-size: 14px;
+	font-family: 'Montserrat', serif;
+	color: #555555;
+	text-align: center;
+	margin-top: 15px;
+}
+.black {
+	background-color: #222222;
+	color: white;
+	border: 2px solid #222222;
+	margin-bottom: 40px;
+}
+footer .container, .contact div.container {
+	width: 80%;
+}
+
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(254, 209, 54, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 18px;
+    background-color: rgba(248, 248, 248, 0);
+    border-width: 0px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(254, 209, 54, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(254, 209, 54, 1);
+    background-color: rgba(231, 231, 231, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #888;
+}
+
+@media only screen and (max-width: 800px) {
+	.row {
+		margin-top: 0;
+	}
+	hr.vertical {
+		visibility: hidden;
+	}
+	div.col-md-5 {
+		text-align: center;
+	}
+	div.col-md-5.left {
+		text-align: center;
+		padding-left: 0;
+	}
+	.about img, button.oval {
+		margin-top: 20px;
+	}
+	.contact button, .companies img  {
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	h2 {
+		font-size: 20px;
+	}
+	.team img, .about img, button.oval {
+		width: 150px;
+		height: 150px;
+	}
+	.smallicon {
+		margin: 2px;
+	}
+	h3 {
+	line-height: 20px;
+	}
+}
