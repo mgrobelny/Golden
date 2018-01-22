@@ -76,7 +76,7 @@ a.navbar-brand {
 	background-size: cover;
 }
 .menu {
-	padding: 20px 150px 0 150px;
+	margin: 20px 150px 0 150px;
 }
 .menu li {
 	font-size: 14px;
@@ -329,6 +329,10 @@ footer .container, .contact div.container {
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #ddd;
 }
+.navbar-toggle {
+	margin: 0 auto;
+}
+
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
     background-color: #ddd;
@@ -344,6 +348,9 @@ footer .container, .contact div.container {
 @media only screen and (max-width: 800px) {
 	.row {
 		margin-top: 0;
+	}
+	.menu {
+		margin: 0 12px;
 	}
 	hr.vertical {
 		visibility: hidden;
